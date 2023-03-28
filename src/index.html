@@ -8,21 +8,18 @@
   </head>
   <body>
     <div class="box">
-      <div class="wava -one"></div>
-      <div class="wava -two"></div>
-      <div class="wava -three"></div>
 
       <div id="weathercon">
         <i class="fas fa-sun" style="color: #eccc68"></i>
       </div>
       <div class="info">
-        <h2 class="location"><i class="fas fa-street-view"></i>Delhi, In</h2>
+        <h2 class="location"><i class="fas fa-street-view"></i>{%location%}, {%country%}</h2>
         <p id="date">WED | OCT 23 | 10:49AM</p>
-        <h1 class="temp">26.49 C</h1>
-        <h3 class="tempmin_max">Min 22.22 C | Max 29.98 C</h3>
+        <h1 class="temp">{%temp%}&deg;C</h1>
+        <h3 class="tempmin_max">Min {%tempMin%}&deg;C | Max {%tempMax%}&deg;C</h3>
       </div>
     </div>
     <script src="script.js"></script>
-    <script src="index.js"></script>
+    <!-- <script src="../index.js"></script> -->
   </body>
 </html>
